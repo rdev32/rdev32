@@ -1,4 +1,4 @@
-### Hello/
+### Hello
 
 - 💻 I do mostly backend stuff
 - 🔭 I make games in my spare time
