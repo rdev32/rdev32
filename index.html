@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Profile</title>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center gap-6 p-8 bg-gray-50">
+  <iframe
+    src="https://gravatar.com/rdev32.card"
+    width="415"
+    height="428"
+    class="rounded-xl border-0"
+    style="margin:0; padding:0; display:block;">
+  </iframe>
+  <nav class="flex gap-6 items-center">
+    <a href="https://peaceful-profiterole-7439ad.netlify.app/"
+       class="text-sm text-gray-400 hover:text-gray-600 transition-colors flex items-center gap-1">
+      Legal
+    </a>
+  </nav>
+  <p class="text-xs text-gray-300">&copy; <span id="anio"></span> Renato Monroy</p>
+  <script>
+    document.getElementById("anio").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
